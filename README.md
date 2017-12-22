@@ -1,8 +1,15 @@
-## Synopsis
-HyperMap is a location-based event recommendation system
+## Introduction
+This repository is my Java implementation of basic data structure and basic sorting algorithm. Data structure include ArrayList, LinkedList, Queue, Stack, Heap, HashTable, Trie, Binary Search Tree. Sorting Algorithm include bubble sort, selection sort, insertion sort, merge sort and quick sort.
 
-## Technical Stack
-React.js + Django + Google Map API + Django REST Framework
+## ArrayList
+Implemented method:
+add(E e)
+add(int index)
+get()
+isEmpty()
+remove(int index)
+size()
+iterator()
 
 ## Functions
 * 1.User registration and authorization. New users need to confirm their accounts by email.
