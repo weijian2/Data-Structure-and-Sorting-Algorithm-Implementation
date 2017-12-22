@@ -1,29 +1,69 @@
 ## Introduction
-This repository is my Java implementation of basic data structure and basic sorting algorithm. Data structure include ArrayList, LinkedList, Queue, Stack, Heap, HashTable, Trie, Binary Search Tree. Sorting Algorithm include bubble sort, selection sort, insertion sort, merge sort and quick sort.
+This repository is my Java implementation of basic data structure and basic sorting algorithm. Data structure include ArrayList, LinkedList, Queue, Stack, Heap, Binary Search Tree, HashTable, Trie. Sorting Algorithm include bubble sort, selection sort, insertion sort, merge sort and quick sort.
 
 ## ArrayList
-Implemented method
-* add(E e)
-* add(int index)
-* get()
-* isEmpty()
-* remove(int index)
+Implemented method:
+* add(AnyType item)
+* add(int index, AnyType item)
+* get(int index)
+* remove(AnyType item)
+* set(int index, AnyType item)
 * size()
 * iterator()
+* isEmpty()
 
 ## LinkedList
-* 1.User registration and authorization. New users need to confirm their accounts by email.
-* 2.Editing user profile. The user can upload new image as profile image and add personal information.
-* 3.Users can create a new event by clicking on the map or searching for a certain location.A new event should have begin time, end time, event name, content, category and other optional information including specific location and image.
-* 4.Achievement system.The user in HyperMap can gather credits by attending events and creatin event. The different level user will have different level logo shown.
-* 5.Users can register for an event and get credits after their attendance being confirmed.
-* 6.Event creator can view all the users who have registered the event. And creator can also confirm the attendance of the registered user.
+Implemented method:
+* addFirst(AnyType item)
+* addLast(AnyType item)
+* insertAfter(AnyType key, AnyType item)
+* insertBefore(AnyType key, AnyType item)
+* remove(AnyType key)
+* iterator()
 
+## Queue(array based)
+Implemented method:
+* enqueue(AnyType item)
+* dequeue()
+* peekFront()
+* isEmpty()
 
-## Deployment
-Deployment Environment: Google App Engine + Google Storage
-https://hypermap-cmu.appspot.com
-(Please contact me at jiawenp1@andrew.cmu.edu if this instance is not running)
+## Stack(array based)
+Implemented method:
+* push(AnyType item)
+* pop()
+* peek()
+* isEmpty()
+
+## Heap(min heap, a.k.a Priority Queue)
+Implemented method:
+* offer(int value)
+* poll()
+* update(int index, int value)
+* size()
+* isEmpty()
+
+## Binary Search Tree
+Implemented method:
+* find(int key)
+* insert(int key, double value)
+* delete(int key)
+* traverse()
+
+## Trie
+Implemented method:
+* search(String word)
+* insert(String word)
+* startswith(String prefix)
+* delete(String word)
+
+## HashTable
+# HashMapI()
+Implemented method:
+* search(String word)
+* insert(String word)
+* startswith(String prefix)
+* delete(String word)
 
 ## Notes:
 I’m sending real Emails for registration and resetting.
