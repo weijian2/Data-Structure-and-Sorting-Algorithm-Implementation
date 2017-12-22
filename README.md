@@ -58,15 +58,44 @@ Implemented method:
 * delete(String word)
 
 ## HashTable
-### HashMap I()
+### HashMap I(using seperate chaining as a way to solve hash collision)
 Implemented method:
-* search(String word)
-* insert(String word)
-* startswith(String prefix)
-* delete(String word)
+* size()
+* isEmpty()
+* clear()
+* put(K key, V value)
+* get(K key)
+* containsKey(K key)
+* containsValue(V value)
+* remove(K key)
+
+### HashMap II(using open addressing(linear probing) as a way to solve hash collision)
+Implemented method:
+* insert(String value)
+* size()
+* display()
+* contains(String key)
+* numOfCollisions()
+* hashValue(String value)
+* showFrequency(String key)
+* remove(String key)
+
+### HashSet
+Implemented method:
+* add(E e)
+* remove(E e)
+* contains(E e)
+* clear()
+* size()
+* isEmpty()
+
+## Sorting Algorithm
+* bubble sort runs in O(n^2)
+* selection sort runs in O(n^2)
+* insertion sort runs in O(n^2)
+* merge sort runs in O(nlogn)
+* quick sort runs in O(nlogn)
 
 ## Notes:
-I’m sending real Emails for registration and resetting.
-Make sure you use a real email address and confirm the link in the email sent to you.
-In settings.py, I changed my password in to password for submission.
+In case you find any bugs, please feel free to contact me at weijian1@andrew.cmu.edu
 

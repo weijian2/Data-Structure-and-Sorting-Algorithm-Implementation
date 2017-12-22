@@ -1,7 +1,7 @@
 package HashTable;
 
 /**
- * HashTable interface.
+ * HashTable interface. Using Separate chaining(closed addressing) as a way to solve hash collision.
  * @author Weijian Li
  */
 public interface HashTableInterface<K, V> {
