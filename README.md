@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 This repository is my Java implementation of basic data structure and basic sorting algorithm. Data structure include ArrayList, LinkedList, Queue, Stack, Heap, Binary Search Tree, HashTable, Trie. Sorting Algorithm include bubble sort, selection sort, insertion sort, merge sort and quick sort.
 
 ## ArrayList
@@ -58,7 +58,7 @@ Implemented method:
 * delete(String word)
 
 ## HashTable
-# HashMapI()
+### HashMap I()
 Implemented method:
 * search(String word)
 * insert(String word)
