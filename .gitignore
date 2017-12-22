@@ -1,0 +1,8 @@
+# Java section #
+*.class
+
+# IDE section #
+.idea
+
+# Mac OS file
+.DS_Store
